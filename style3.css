@@ -1,0 +1,172 @@
+ * {
+    box-sizing: border-box;
+ }
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    line-height:2.6;
+    background-color: #fefefe;
+    text-align: center;
+    color:#222
+
+
+ }
+ header{
+    background-color: #8B0000;
+    color: white;
+    padding: .5em;
+    text-align:center;
+    font-size: 13px;
+    text-transform: uppercase;
+    background: linear-gradient(to right,#a84432,#d38912);
+    border-radius: 5px;
+    text-shadow: rgb(105, 105, 105);
+    border:2px solid rgb(255, 255, 255);
+    text-decoration: underline;
+    font-style: italic;
+ }
+ nav{
+    margin-top: 1rem;
+
+ }
+ nav a {
+    color:#fff;
+    margin:0 1rem;
+    text-decoration: underline;
+    font-weight: 600;
+    padding:0.4rem 0.6rem;
+    border-radius: 6px;
+ }
+ nav a:hover{
+    text-decoration: #a52a2a;
+
+ }
+ section{
+    padding:2rem;
+    max-width:1200px;
+    margin:2rem auto;
+    border:2px solid #e0e0e0;
+    background-color: #fffaf0;
+    border-radius: 12px;
+     box-shadow: 0 4px 12px rgba(0,0,0,0,0.7);
+
+ }
+
+ .hero{
+    background:url(https://exploreestes.com/wp-content/uploads/2021/09/top-breakfast-restaurants-best-places-to-eat-estes-park.jpg) no-repeat center/cover;
+    color: black;
+    text-align: center;
+    padding:6rem 2rem;
+    background-color: black;
+    border-radius:2;
+    
+ }
+ #home.hero h2{
+    display:inline-block;
+    padding:1rem 2rem;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow:2px 2px 4px rgb(128, 128, 128);
+    font-style: italic;
+    text-decoration: underline;
+    text-box:inherit;
+   background: linear-gradient(to right,#a84432,#d38912);
+ }
+ .hero p{
+    background: linear-gradient(to right,#9f4737,#d38912);
+    display:inline-block;
+    padding:1rem 2rem;
+    border-radius: 10px;
+    color:#fff;
+    text-shadow:2px 2px 4px gray;
+    font-style: italic;
+    text-decoration: underline;
+    text-box:inherit;
+ }
+ #about{
+    background-color: #fff8f0;
+    text-decoration: underline;
+      background: linear-gradient(to right,#f2c697,#c0dce7);
+ }
+    
+ .hero h2{
+    font-size:3rem;
+    color:white;
+ }
+
+ img{
+    max-width:100%;
+    border-radius:10px;
+    display:block;
+    margin:1rem 0;
+}
+.menu-grid,.gallery-grid{
+     background: linear-gradient(to right,#f2c697,#c0dce7);
+    display:grid;
+    grid-template-columns: 
+    repeat(auto-fit,minmax(550px,1fr));
+    gap:2 rem;
+    
+}
+.menu-grid h3{
+    color:#b22222;
+    margin-top:0.5rem;
+}
+form{
+    display:grid;
+    gap:1rem;
+    max-width: 500px;
+    margin: auto;
+    background-color: darkkhaki;
+    padding:2rem;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+input,output{
+    padding:0.8rem;
+    font-size:1rem;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+button{
+    background: color #b80000;
+    color:white;
+    border:burlywood;
+    cursor:pointer;
+    background-color: #8B0000;
+    transition: 0.4s;
+    font-weight: bold;
+}
+button:hover{
+    background-color: lavenderblush;
+
+}
+footer{
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+blockquote{
+     
+    background-color:#f2f2f2;
+    border-left:5px solid#b22222;
+    margin:1rem;
+    padding:1rem;
+    border-radius: 6px;
+    max-width: 600px;
+    font-style: italic;
+}
+@media screen and(max-width:600px)
+{nav{
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+.hero{
+    padding:5rem 1 rem;
+
+}
+}
+
